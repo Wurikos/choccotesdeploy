@@ -9,6 +9,15 @@ export const onRenderBody = (
     }
 ) => {
   setHeadComponents([
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YPNPQGJ2Y9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YPNPQGJ2Y9');
+</script>
     <style>{`
         body {
             margin: 0;
