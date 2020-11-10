@@ -68,7 +68,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 			<Box width="50%" margin="100px 0px 70px 0px">
-				<Text color="#fff" font="600 48px --fontFamily-googleAlegreyaSans" text-transform="uppercase">
+				<Text color="--red" font="600 48px --fontFamily-googleAlegreyaSans" text-transform="uppercase">
 					натуральные{" "}
 					<br />
 					{"\n"}шоколадные{" "}
